@@ -1,15 +1,13 @@
-using Unity.Engine;
+
 
 // Start is called once before the first execution of Update after the MonoBehaviour is created
 public static class Enums 
        {
             public enum CharacterClass
             {
-                Mage,
-                Warrior,
-                Paladin,
-                Rouge,
-                Thief
+                Player,
+                Enemy,
+                Npc
 
             }
             
@@ -17,6 +15,7 @@ public static class Enums
             public enum CharacterType
             {
                 Necromancer,
+                Warrior,
                 Archknight,
                 ShieldBearer,
                 Traitor,

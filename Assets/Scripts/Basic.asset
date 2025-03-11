@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95cd475512b86d64381cc1f9d1afc5be, type: 3}
+  m_Name: Basic
+  m_EditorClassIdentifier: 
+  DisplayName: Sword Swipe(4 dmg)
+  AttackType: 0
+  Damage: 4
+  Projectile: {fileID: 0}
+  HealAmount: 0
