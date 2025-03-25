@@ -60,7 +60,7 @@ public class CombatCharacter : MonoBehaviour
     {
         if (action.Damage > 0)
         {
-            // Add damage later
+            StartCoroutine(AttackOpponent(action));
         }
         else if (action.Projectile != null)
         {
@@ -96,5 +96,10 @@ public class CombatCharacter : MonoBehaviour
         TurnManager.instance.OnEndTurn();
     }
 
+    public float GetHealthPercentage()
+    {
+        float healthPercentage = (float)currHP / maxHP;
+        return healthPercentage;
 
+    }
 }

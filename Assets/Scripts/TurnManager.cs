@@ -22,6 +22,11 @@ public class TurnManager : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        OnBeginTurn();
+    }
+
     public void OnBeginTurn()
     {
         currentCharacterIndex++;
