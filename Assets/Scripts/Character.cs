@@ -42,8 +42,7 @@ public class Character
 
     public struct AbilityScores
     {
-        public struct Abilities
-        {
+        
             private int strength;
             private int dexterity;
             private int constitution;
@@ -87,7 +86,7 @@ public class Character
                 set => charisma = Math.Clamp(value, 0, 10);
             }
 
-            public Abilities(int strength, int dexterity, int constitution, int intelligence, int wisdom, int charisma)
+            public void Abilities(int strength, int dexterity, int constitution, int intelligence, int wisdom, int charisma)
             {
                 this.strength = Math.Clamp(strength, 0, 10);
                 this.dexterity = Math.Clamp(dexterity, 0, 10);
@@ -145,7 +144,7 @@ public class Character
             }
 
 
-        }
+        
     }
 
     
